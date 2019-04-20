@@ -1,4 +1,5 @@
 # coding utf-8
+# code by: Lee 2019-03-28
 import urllib2
 import time
 import json
@@ -26,4 +27,3 @@ if __name__ == '__main__':
         result = vpn.login()
         time.sleep(5)
         print result
-# ---------------------------by: Zhiyuan Li
