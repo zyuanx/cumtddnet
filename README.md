@@ -3,7 +3,7 @@
 ## **刷机有风险，且刷且珍惜**
 # 第一部分：刷入openwrt固件
 ## 第一步
-路由器恢复出厂设置。方法：用网线连接路由器的LAN口和电脑网线插口，保证可以正常进入斐讯K2管理。（访问p.to或者192.168.2.1进入）
+路由器恢复出厂设置。方法：用网线连接路由器的LAN口和电脑网线插口，保证可以正常进入斐讯K2管理。（访问p .to 或者 192.168.2.1 进入）
 成功恢复成功后，再次访问会出现以下的页面（不要进行设置）：
 
 ![](/imgs/1.png)
@@ -79,7 +79,8 @@ opkg install vsftpd openssh-sftp-server
 /etc/init.d/vsftpd enable
 /etc/init.d/vsftpd start
 ```
-每次执行完一个命令后，会再次出现root@OpenWrt:~#
+每次执行完一个命令后，会再次出现 **root@OpenWrt:~#**
+
 然后关闭连接，重新连接路由器，可以看到如下图所示的界面
 
 ![](/imgs/19.png)
@@ -112,7 +113,8 @@ opkg install python-logging
 ![](/imgs/24.png)
 ![](/imgs/25.png)
 
-在此页面最下面**exit 0**上面加上**python /www/py/duodian2.py**即可。
+在此页面最下面 **exit 0** 上面加上 **python /www/py/duodian2.py** 即可。
+
 注：前面通过stu无线网连接网络的，请将此无线网移除。
 ## 八：开启热点
 
@@ -131,6 +133,6 @@ opkg install python-logging
 
 > 编辑：李治远 审核：李治国
 
-加入“矿大物联数据讨论群”，了解更多大创项目信息。
+> 加入“矿大物联数据讨论群”，了解更多大创项目信息。
 
-群号：753871737
+> 群号：753871737
